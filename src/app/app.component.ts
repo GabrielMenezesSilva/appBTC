@@ -19,7 +19,7 @@ res: any;
   }
   title = 'appBitcoin2.0';
 
-  isHidden: boolean = false
+  isHidden: boolean = true
 
   result = inject (ServiceService).prixBTC()
 
